@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+@import "./animations.css";
+
+@font-face {
+  font-family: Gotham-Pro-Reg;
+  src: url(../fonts/GothamProRegular.ttf);
+}
+@font-face {
+  font-family: Gotham-Pro-Bold;
+  src: url(../fonts/GothamProBold.ttf);
+}
+
+.reviewSlide .slick-list {
+  max-width: 75% !important;
+  margin: auto!important;
+}
+
+@media (max-width: 1279px) {
+  .slick-prev, .slick-next {
+    display: none!important;
+  }
+  .reviewSlide .slick-list {
+    max-width: 100% !important;
+  }
+}
